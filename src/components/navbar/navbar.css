@@ -1,0 +1,37 @@
+.container{
+    background-color: transparent;
+    width: max-content;
+    display: block;
+    padding: 0.5rem 1.4rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+    gap: 1rem;
+    backdrop-filter: blur(15px);
+}
+
+.title {
+    font-family: 'Allura', cursive;
+    font-size: 2.3rem;
+    text-shadow: 5px 5px 10px rgb(15, 13, 13);
+    color:#FFF6F9;
+    background-color: transparent;
+}
+
+.links {
+    font-family: 'Genos', sans-serif;
+    padding: 1rem;
+    text-decoration: none;
+    color: #BDA5AB;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.links:hover {
+    color: white;
+    border-radius: 2rem;
+
+}
