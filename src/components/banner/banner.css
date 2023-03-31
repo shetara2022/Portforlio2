@@ -5,10 +5,10 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url('../../images/ZOHV.gif');
+    /* background-image: url('../../images/ZOHV.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top-center;
+    background-position: top-center; */
 }
 
 .intro_words {

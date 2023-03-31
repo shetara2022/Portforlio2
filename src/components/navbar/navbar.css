@@ -1,5 +1,4 @@
-.container{
-    /* background-color: transparent; */
+.nav-container{
     width: max-content;
     display: block;
     padding: 0.5rem 1.4rem;
@@ -13,8 +12,8 @@
 }
 
 span.title.navbar-brand{
-    font-family: 'Allura', cursive;
-    font-size: 2.8rem;
+    font-family: 'Meddon', cursive;
+    font-size: 3.5rem;
     text-shadow: 15px 10px 15px rgb(17, 17, 17);
     color:#FFF6F9;
     /* background-color: transparent; */
@@ -23,11 +22,11 @@ span.title.navbar-brand{
 
 a.navbar-link, a.active.navbar-link.nav-link {
     font-family: 'Genos', sans-serif;
-    padding: 1 rem;
+    padding: 1.3rem;
     text-decoration: none;
     color: white;
     text-shadow: 25px 20px 25px black;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 

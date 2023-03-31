@@ -32,8 +32,8 @@ const NavBar = () => {
     return (
       <>
     <Navbar className={scrolled ? "scrolled": "" }>
-        <Container className='container'>
-            <Navbar.Brand className='title'>Shetara Smith</Navbar.Brand>
+        <Container className='nav-container'>
+            <Navbar.Brand className='title'>SLS</Navbar.Brand>
                 <Nav className="navbar">
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>

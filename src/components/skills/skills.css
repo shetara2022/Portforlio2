@@ -1,0 +1,47 @@
+.skillset {
+    padding: 0 0 50px 0;
+    position: relative;
+    width: 100%;
+}
+
+    .skillset-bx {
+    padding: 30px;
+    margin-top: -30px;
+    text-align: center;
+    }
+    
+    .skillset h2 {
+    font-size: 30px;
+    font-family: 'Allura', cursive;
+    font-size: 45px;
+    color: white;
+   
+    }
+    
+    .skillset h5 {
+    font-size: 20px;
+    margin-bottom: 10%;
+    font-weight: 700;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    text-align: center;
+    }
+    
+    .skillset p {
+    font-size: 16px;
+    margin: 10px 0 50px 0;
+    color:#F0DFD9;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    }
+    
+    .item {
+    margin: 15px;
+    padding: 10px;
+    }
+
+    .skillset li {
+        font-family: 'Luckiest Guy', cursive;
+        color: white;
+        text-align: justify;  
+    }

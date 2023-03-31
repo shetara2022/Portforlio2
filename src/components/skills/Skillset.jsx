@@ -3,6 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { BsFillMortarboardFill } from "react-icons/bs";
+import { BsCheckCircle} from "react-icons/bs";
 
 
 
@@ -29,7 +30,7 @@ const Skillset = () => {
     
     return (
         <section className='skillset'>
-            <Container>
+            <Container className='skills-container'>
                 <Row>
                     <Col>
                         <div className='skillset-bx'>
@@ -38,39 +39,38 @@ const Skillset = () => {
 
                             <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                 <div className='item'>
-                                    <h5>Front End Development <BsFillMortarboardFill/> </h5>
+                                    <h5>Front-End Development <BsFillMortarboardFill/> </h5>
                                     <ul>
-                                        <li>⭐️HTML</li>
-                                        <li>⭐️CSS</li>
-                                        <li>⭐️JavaScript</li>
-                                        <li>⭐️JavaScript</li>
-                                        <li>⭐️React</li>
-                                        <li>⭐️Bootstrap</li>
-                                        <li>⭐️React Bootstrap</li>
-                                        <li>⭐️Responsive Web Design</li>
+                                        <li><BsCheckCircle/> HTML</li>
+                                        <li><BsCheckCircle/> CSS</li>
+                                        <li><BsCheckCircle/> JavaScript</li>
+                                        <li><BsCheckCircle/> React</li>
+                                        <li><BsCheckCircle/> Bootstrap</li>
+                                        <li><BsCheckCircle/>React Bootstrap</li>
+                                        <li><BsCheckCircle/>Responsive-Web-Design</li>
                                     </ul>
                                 </div>
                                 <div className='item'>
-                                    <h5>Back End Development <BsFillMortarboardFill/> </h5>
+                                    <h5>Back-End Development <BsFillMortarboardFill/> </h5>
                                     <ul>
-                                        <li>⭐️NodeJs</li>
-                                        <li>⭐️Express</li>
-                                        <li>⭐️MongoDB</li>
-                                        <li>⭐️SQL</li>
-                                        <li>⭐️RESTful APIs</li>
-                                        <li>⭐️Python</li>
+                                        <li><BsCheckCircle/> NodeJs</li>
+                                        <li><BsCheckCircle/> Express</li>
+                                        <li><BsCheckCircle/> MongoDB</li>
+                                        <li><BsCheckCircle/> SQL</li>
+                                        <li><BsCheckCircle/> RESTful APIs</li>
+                                        <li><BsCheckCircle/> Python</li>
                                     </ul>
                                 </div>
                                 <div className='item'>
-                                    <h5>Soft Skills <BsFillMortarboardFill/> </h5>
+                                    <h5>Soft-Skills <BsFillMortarboardFill/> </h5>
                                     <ul>
-                                        <li>⭐️Communication</li>
-                                        <li>⭐️Teamwork</li>
-                                        <li>⭐️Problem-Solving</li>
-                                        <li>⭐️Time Management</li>
-                                        <li>⭐️Organizational</li>
-                                        <li>⭐️Critical Thinking</li>
-                                        <li>⭐️Adaptability</li>
+                                        <li><BsCheckCircle/> Communication</li>
+                                        <li><BsCheckCircle/> Teamwork</li>
+                                        <li><BsCheckCircle/> Problem-Solving</li>
+                                        <li><BsCheckCircle/> Time Management</li>
+                                        <li><BsCheckCircle/> Organizational</li>
+                                        <li><BsCheckCircle/> Critical Thinking</li>
+                                        <li><BsCheckCircle/> Adaptability</li>
                                     </ul>
                                 </div>
                             </Carousel>
