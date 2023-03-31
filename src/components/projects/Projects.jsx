@@ -4,8 +4,13 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import trivia  from '../../images/trivia.png'
 import games  from '../../images/games.png'
+import blog  from '../../images/blog.png'
 
 const Projects = () => {
+    const handleClickA = () => {
+
+
+    }
   return (
       <section className='my-/projects'>
           <Container>
@@ -20,8 +25,12 @@ const Projects = () => {
                                 <Card.Title>Let's Play: Trivia</Card.Title>
                                 <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Live Demo</Button>
+                              </Card.Text>
+                                <Button variant="primary">
+                                <a href="http://trivia-game2.vercel.app" target="_blank" rel="noopener noreferrer">
+                                    Live Demo
+                                </a>
+                                </Button>
                             </Card.Body>
                             </Card>
                         </div>
@@ -41,7 +50,7 @@ const Projects = () => {
                   
                         <div className='card-container'>
                             <Card className='pro-card'>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src={blog} />
                             <Card.Body>
                                 <Card.Title>Travel & Share Blog</Card.Title>
                                 <Card.Text>
