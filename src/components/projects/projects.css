@@ -1,0 +1,47 @@
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-container {
+    flex: 2;
+    margin: 10px;
+    max-width: 30rem; 
+  }
+  
+  div.pro-card {
+    margin: 10%;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 20px 20px 50px 15px grey;
+    border-radius: 10%;
+  }
+
+.container h2 {
+    margin-bottom: 10%;
+    font-family: 'Allura', cursive;
+    font-size: 75px;
+    color: white;
+}
+
+div.card-title.h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    text-shadow: 15px 10px 15px black;
+}
+
+button.btn.btn-primary {
+  padding: 0.6em 1.2em;
+  border-radius: 10%;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(120deg, darkmagenta, rgb(60, 11, 46), rgb(158, 82, 158));
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .5s;
+  border: none;
+}

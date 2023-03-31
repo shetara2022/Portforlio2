@@ -5,24 +5,24 @@
     z-index: 2;
     position: fixed;
     left: 50%;
-    top: 2rem;
+    top: 1rem;
     transform: translateX(-50%);
-    gap: 1rem;
+    gap: 0.8rem;
     backdrop-filter: blur(15px);
 }
 
 span.title.navbar-brand{
     font-family: 'Meddon', cursive;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-shadow: 15px 10px 15px rgb(17, 17, 17);
     color:#FFF6F9;
-    /* background-color: transparent; */
+    background-image: url(../../images/confetti.gif);
 }
 
 
 a.navbar-link, a.active.navbar-link.nav-link {
     font-family: 'Genos', sans-serif;
-    padding: 1.3rem;
+    padding: 1rem;
     text-decoration: none;
     color: white;
     text-shadow: 25px 20px 25px black;
@@ -35,7 +35,6 @@ a.active.navbar-link.nav-link:hover, a.navbar-link:hover {
     color: rgb(69, 4, 39);
     border-radius: 2rem;
     text-shadow: 15px 10px 15px black;
-
 }
 
 .social-icons svg {
