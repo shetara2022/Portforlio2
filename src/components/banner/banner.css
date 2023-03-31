@@ -1,0 +1,62 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../../images/ZOHV.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top-center;
+}
+
+.intro_words {
+    color: white;
+    margin-top: 20%;
+    text-shadow: 5px 5px 10px rgb(9, 9, 9);
+    font-size: 90px;
+    font-family: 'Allura', cursive;
+}
+
+.typewords {
+    font-weight: 550;
+    font-size: 30px;
+    color:#F0DFD9;
+    text-shadow: 5px 5px 10px rgb(9, 9, 9);
+    font-family: 'Special Elite', cursive;
+}
+
+.mypic{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid;
+    border-image-source: linear-gradient(rgb(238, 144, 172), rgb(74, 6, 42));
+    border-image-slice: 30;
+    animation: updown 3s linear infinite;
+}
+
+@keyframes updown{
+    0% {
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+
+}
+p { 
+    background-color: transparent;
+    font-family: 'Lilita One', cursive;
+    color:#F0DFD9;
+    font-size: 20px;
+    text-shadow: 15px 10px 15px rgb(8, 8, 8);
+    border-style: outset;
+    
+}
