@@ -2,9 +2,11 @@ import './skills.css'
 import {Container, Row, Col} from 'react-bootstrap'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { BsFillMortarboardFill } from "react-icons/bs";
 
 
-const Skills = () => {
+
+const Skillset = () => {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -26,17 +28,17 @@ const Skills = () => {
     };
     
     return (
-        <section className='skills'>
+        <section className='skillset'>
             <Container>
                 <Row>
                     <Col>
-                        <div className='skill-bx'>
-                            <h2>Skills</h2>
+                        <div className='skillset-bx'>
+                            <h2>Technical Skills</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vero esse, inventore suscipit quasi ab quos ad error, temporibus ea atque aut incidunt voluptatibus quas beatae obcaecati corrupti, doloremque ratione!</p>
 
                             <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                 <div className='item'>
-                                    <h5>Front End Development</h5>
+                                    <h5>Front End Development <BsFillMortarboardFill/> </h5>
                                     <ul>
                                         <li>⭐️HTML</li>
                                         <li>⭐️CSS</li>
@@ -45,6 +47,30 @@ const Skills = () => {
                                         <li>⭐️React</li>
                                         <li>⭐️Bootstrap</li>
                                         <li>⭐️React Bootstrap</li>
+                                        <li>⭐️Responsive Web Design</li>
+                                    </ul>
+                                </div>
+                                <div className='item'>
+                                    <h5>Back End Development <BsFillMortarboardFill/> </h5>
+                                    <ul>
+                                        <li>⭐️NodeJs</li>
+                                        <li>⭐️Express</li>
+                                        <li>⭐️MongoDB</li>
+                                        <li>⭐️SQL</li>
+                                        <li>⭐️RESTful APIs</li>
+                                        <li>⭐️Python</li>
+                                    </ul>
+                                </div>
+                                <div className='item'>
+                                    <h5>Soft Skills <BsFillMortarboardFill/> </h5>
+                                    <ul>
+                                        <li>⭐️Communication</li>
+                                        <li>⭐️Teamwork</li>
+                                        <li>⭐️Problem-Solving</li>
+                                        <li>⭐️Time Management</li>
+                                        <li>⭐️Organizational</li>
+                                        <li>⭐️Critical Thinking</li>
+                                        <li>⭐️Adaptability</li>
                                     </ul>
                                 </div>
                             </Carousel>
@@ -57,4 +83,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Skillset
