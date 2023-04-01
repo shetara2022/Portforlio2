@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {BsLinkedin} from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
+import { BsEnvelope } from 'react-icons/bs'
 import './navbar.css'
 
 
@@ -43,6 +44,7 @@ const NavBar = () => {
               <span className='social-icons'>
                 <a href = "https://linkedin.com" target="_blank" rel='noreferrer'><BsLinkedin /></a>          
                 <a href = "https://github.com" target="_blank" rel='noreferrer'><BsGithub /></a>  
+                <a href = "mailto:smithshetarall@gmail.com" target="_blank" rel='noreferrer'><BsEnvelope /></a>  
               </span>
     </Container>
   </Navbar>

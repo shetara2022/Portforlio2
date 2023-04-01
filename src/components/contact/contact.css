@@ -2,8 +2,20 @@
     margin: 10% 20% 15% 20%;
 }
 
+.colorimage {
+    /* top:20%; */
+    position:absolute;
+    bottom: 0;
+    width: 40%;
+    right: 60%;
+    z-index: -3;
+}
+
 .contact-p {
-    margin: 10% 0 15% 0
+    margin: 10% 0 15% 30%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 2;
 }
 
 .contact-title{
@@ -15,7 +27,7 @@
 }
 
 a.email-link:hover{
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(233, 233, 240), 0 0 5px darkblue; 
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(233, 233, 240), 0 0 5px rgb(66, 2, 91); 
 }
 
 a.email-link{

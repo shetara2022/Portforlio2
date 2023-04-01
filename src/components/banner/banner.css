@@ -5,10 +5,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* background-image: url('../../images/ZOHV.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top-center; */
 }
 
 .intro_words {
@@ -21,7 +17,7 @@
 
 .typewords {
     font-weight: 550;
-    font-size: 30px;
+    font-size: 35px;
     color:#F0DFD9;
     text-shadow: 5px 5px 10px rgb(9, 9, 9);
     font-family: 'Special Elite', cursive;
@@ -55,8 +51,10 @@ p {
     background-color: transparent;
     font-family: 'Lilita One', cursive;
     color:#F0DFD9;
+    line-height: 2;
     font-size: 16px;
     text-shadow: 15px 20px 25px rgb(8, 8, 8);
+    text-align: justify;
     border-style: outset;
     
 }

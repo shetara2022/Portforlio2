@@ -4,7 +4,7 @@ import me from '../../images/me.jpeg'
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: [ '- Fullstack Developer',  ' - Passionate & Enthusiastic',  ' - Hardworking',  '- Strong Communication Skills'],
+    words: [ '- Fullstack Developer',  ' - React Developer',  ' - Web Developer',  '- Software Development'],
     loop: {},
     typeSpeed: 160,
     deleteSpeed: 80,
