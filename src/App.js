@@ -3,6 +3,7 @@ import Banner from './components/banner/Banner'
 import Skillset from './components/skills/Skillset';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -30,6 +31,7 @@ function App() {
       <Skillset />
       <Projects />
       <Contact />
+      <Footer />
     </div>
     </>
   );

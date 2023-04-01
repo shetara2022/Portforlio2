@@ -3,9 +3,7 @@
 }
 
 .colorimage {
-    /* top:20%; */
     position:absolute;
-    bottom: 0;
     width: 40%;
     right: 60%;
     z-index: -3;
