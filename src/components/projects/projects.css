@@ -23,6 +23,7 @@
     margin-bottom: 5%;
     font-family: 'Allura', cursive;
     font-size: 75px;
+    font-weight: 700;
     color: white;
     text-shadow: 25px 20px 25px black;
 }
@@ -44,7 +45,7 @@ button.btn.btn-primary {
     background-size: 200% 100%;
     background-position: 100% 0;
     transition: background-position .5s;
-    border: none;
+    border: 2px solid rgb(82, 33, 122);
 }
 
 button.btn.btn-primary:hover{
