@@ -2,6 +2,7 @@ import NavBar from './components/navbar/Navbar';
 import Banner from './components/banner/Banner'
 import Skillset from './components/skills/Skillset';
 import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,10 +29,9 @@ function App() {
       <Banner />
       <Skillset />
       <Projects />
-      
-
-      </div>
-      </>
+      <Contact />
+    </div>
+    </>
   );
 }
 
