@@ -11,8 +11,6 @@ const Projects = () => {
       <section className='my-/projects'>
           <Container>
                       <h2> Projects</h2>
-                      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo facere commodi, enim minima tenetur voluptatibus. Sed officiis obcaecati ducimus cupiditate autem optio distinctio hic, laboriosam fuga consequuntur laudantium nam quae.</p>
-
                       <div className='card-wrapper'>
                       <div className='card-container'>
                       <Card className='pro-card'>

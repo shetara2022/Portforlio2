@@ -36,7 +36,7 @@
     border: 10px solid;
     border-image-source: linear-gradient(rgb(238, 144, 172), rgb(74, 6, 42));
     border-image-slice: 30;
-    animation: updown 3s linear infinite;
+    animation: updown 2s linear infinite;
 }
 
 @keyframes updown{
@@ -55,7 +55,7 @@ p {
     background-color: transparent;
     font-family: 'Lilita One', cursive;
     color:#F0DFD9;
-    font-size: 20px;
+    font-size: 16px;
     text-shadow: 15px 10px 15px rgb(8, 8, 8);
     border-style: outset;
     

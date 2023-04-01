@@ -4,7 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { BsFillMortarboardFill } from "react-icons/bs";
 import { BsCheckCircle} from "react-icons/bs";
-
+import colorful from '../../images/colorful.png'
 
 
 const Skillset = () => {
@@ -35,8 +35,7 @@ const Skillset = () => {
                     <Col>
                         <div className='skillset-bx'>
                             <h2>Technical Skills</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vero esse, inventore suscipit quasi ab quos ad error, temporibus ea atque aut incidunt voluptatibus quas beatae obcaecati corrupti, doloremque ratione!</p>
-
+                            <img className="computer" src={colorful} alt="Colorful computer" />
                             <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                 <div className='item'>
                                     <h5>Front-End Development <BsFillMortarboardFill/> </h5>
@@ -56,6 +55,7 @@ const Skillset = () => {
                                         <li><BsCheckCircle/> NodeJs</li>
                                         <li><BsCheckCircle/> Express</li>
                                         <li><BsCheckCircle/> MongoDB</li>
+                                        <li><BsCheckCircle/> Mongoose</li>
                                         <li><BsCheckCircle/> SQL</li>
                                         <li><BsCheckCircle/> RESTful APIs</li>
                                         <li><BsCheckCircle/> Python</li>

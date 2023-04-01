@@ -1,33 +1,41 @@
 .nav-container{
-    width: max-content;
-    display: block;
-    /* padding: 0.5rem 1.4rem; */
-    /* z-index: 2;
+    /* width: max-content; */
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #c9c4c6;
+    padding: 0.5rem 1.4rem; 
+    z-index: 2;
     position: fixed;
     left: 50%;
     top: 1rem;
     transform: translateX(-50%);
     gap: 0.8rem;
-    backdrop-filter: blur(15px); */
+    backdrop-filter: blur(15px);
 }
 
 span.title.navbar-brand{
     font-family: 'Meddon', cursive;
-    font-size: 3rem;
-    text-shadow: 15px 10px 15px rgb(17, 17, 17);
-    color:#FFF6F9;
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px black, 0 0 25px rgb(200, 83, 236), 0 0 5px darkblue;
+    color:white;
     background-image: url(../../images/confetti.gif);
+    width: 100%;
+    text-align: center;
 }
 
+/* span.title.navbar-brand::first-letter{
+    initial-letter: 2;
+} */
 
 a.navbar-link, a.active.navbar-link.nav-link {
     font-family: 'Genos', sans-serif;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-decoration: none;
     color: white;
-    text-shadow: 25px 20px 25px black;
-    font-size: 1.6rem;
+    /* text-shadow: 25px 20px 25px black; */
+    font-size: 2vw;
     font-weight: 600;
+    flex: 1 0 auto;
 }
 
 
@@ -39,12 +47,36 @@ a.active.navbar-link.nav-link:hover, a.navbar-link:hover {
 
 .social-icons svg {
     color: white;
-    margin: 15px;
-    font-size: 25px;
+    margin: 1vw;
+    font-size: 2vw;
     cursor: pointer;
     border-radius: 50%;
   }
 
   .social-icons svg:hover{
     color: black;
+  }
+
+
+  /* MEDIA QUERIES */
+
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    span.title.navbar-brand {
+      font-size: 5vw;
+    }
+  
+    a.navbar-link, a.active.navbar-link.nav-link {
+      font-size: 4vw;
+      margin-bottom: 1rem;
+    }
+  
+    .social-icons svg {
+      margin: 2vw;
+      font-size: 6vw;
+    }
   }
