@@ -4,18 +4,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 50vh;
+    margin-top: 20%;
 }
 
 .intro_words {
+    display: inline-block;
     color: white;
-    margin-top: 20%;
+    margin-top: 10%;
     text-shadow: 15px 5px 10px rgb(9, 9, 9);
     font-size: 90px;
     font-family: 'Allura', cursive;
 }
 
 .typewords {
+    display:block;
     font-weight: 550;
     font-size: 35px;
     color:#F0DFD9;
@@ -24,13 +27,13 @@
 }
 
 .mypic{
-    width: 300px;
+    width: 200px;
     height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 10px solid;
-    border-image-source: linear-gradient(rgb(238, 144, 172), rgb(74, 6, 42));
+    border-image-source: linear-gradient(rgb(34, 32, 33), rgb(74, 6, 42));
     border-image-slice: 30;
     animation: updown 2s linear infinite;
 }
@@ -53,7 +56,6 @@ p {
     color:#F0DFD9;
     line-height: 2;
     font-size: 16px;
-    text-shadow: 15px 20px 25px rgb(8, 8, 8);
     text-align: justify;
     border-style: outset;
     

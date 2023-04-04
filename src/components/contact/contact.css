@@ -1,16 +1,16 @@
 .contact{
-    margin: 10% 20% 15% 20%;
+    margin-top: 25%;
 }
 
 .colorimage {
     position:absolute;
     width: 40%;
-    right: 60%;
+    left: 60%;
     z-index: -3;
 }
 
 .contact-p {
-    margin: 10% 0 15% 30%;
+    margin: 10% 20% 10% 20%;
     text-align: justify;
     font-size: 15px;
     line-height: 2;
@@ -24,11 +24,8 @@
     text-shadow: 25px 20px 25px black;
 }
 
-a.email-link:hover{
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(233, 233, 240), 0 0 5px rgb(66, 2, 91); 
-}
-
-a.email-link{
+/* .email-me {
+    cursor: pointer;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 18px;
     text-decoration: none;
@@ -41,5 +38,9 @@ a.email-link{
     background-position: 100% 0;
     transition: background-position .5s;
     border: 2px solid rgb(82, 33, 122);
-    
-}
+} */
+
+/* .email-me:hover {
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(233, 233, 240), 0 0 5px rgb(66, 2, 91); 
+} */
+
