@@ -16,8 +16,8 @@ const Navbar = () => {
       <a href='#connect' onClick={() => setActiveNav('#connect')} className={activeNav === '#connect' ? 'active' : ''}>Let's Connect</a>
   
       <span className='social-icons'>
-      <a href = "https://linkedin.com" target="_blank" rel='noreferrer'><BsLinkedin /></a>          
-      <a href = "https://github.com" target="_blank" rel='noreferrer'><BsGithub /></a>  
+      <a href = "https://linkedin.com/in/shetara-smith" target="_blank" rel='noreferrer'><BsLinkedin /></a>          
+      <a href = "https://github.com/shetara2022" target="_blank" rel='noreferrer'><BsGithub /></a>  
       <a href = "mailto:smithshetarall@gmail.com" target="_blank" rel='noreferrer'><BsEnvelope /></a>
         </span>
       </nav>

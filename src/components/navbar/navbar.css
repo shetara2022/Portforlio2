@@ -52,15 +52,15 @@ nav {
     nav {
       flex-direction:row;
       align-items: center;
-      width:80vw
+      width:90vw
     }
   
    .title {
       font-size: 5vw;
     }
   
-    a {
-      font-size: 4vw;
+    a:link {
+      font-size: 5vw;
       margin-bottom: 0.5rem;
     }
   

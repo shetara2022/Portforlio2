@@ -43,7 +43,7 @@
 
     .computer {
         display: inline-flex;
-        width: 40%;
+        width: 50%;
         -ms-transform: rotate(20deg);
         transform: rotate(20deg);
 }

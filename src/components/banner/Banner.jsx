@@ -32,7 +32,8 @@ const Banner = () => {
     </div>
      <div>
      <header className='bg text-white p-5' style={{ marginBottom: '10%' }} >
-         <p>As an experienced educator of 12 years, I have always been passionate about creating engaging and enjoyable lessons that cater to the needs of individual students. During the pandemic, my interest in software development was sparked when I saw the potential for technology to enhance the learning experience. Recently, I completed a rigorous software development bootcamp at North Carolina State University, where I gained hands-on experience in a range of programming languages and tools. I am now excited to apply my skills and knowledge to a new career in software development and make a positive impact in the industry!</p>
+          <p>As an experienced educator of 12 years, I have always been passionate about creating engaging and enjoyable lessons that cater to the needs of individual students. During the pandemic, my interest in software development was sparked when I saw the potential for technology to enhance the learning experience. </p>
+          <p>My passion for learning is contagious, and I am constantly seeking out new challenges and opportunities for growth. My journey from educator to developer is a testament to my adaptability and tenacity. As a lifelong learner, I am always eager to take on new projects and expand my skill set. My unique combination of skills, dedication, and passion makes me an invaluable asset to any team.</p>
      </header>
  </div>
     </>

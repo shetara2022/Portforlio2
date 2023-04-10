@@ -37,12 +37,13 @@
   }
   
   .container h2 {
-  margin-bottom: 5%;
-  font-family: "Allura", cursive;
-  font-size: 75px;
-  font-weight: 700;
-  color: white;
-  text-shadow: 25px 20px 25px black;
+    margin-top: 30%;
+    margin-bottom: 5%;
+    font-family: "Allura", cursive;
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 25px 20px 25px black;
   }
   
   div.card-title.h5 {
