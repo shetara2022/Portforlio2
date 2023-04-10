@@ -29,7 +29,7 @@ const Skillset = () => {
     };
     
     return (
-        <section className='skillset'>
+        <section className='skillset' id= 'skills'>
             <Container className='skills-container'>
                 <Row>
                     <Col>

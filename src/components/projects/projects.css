@@ -1,80 +1,92 @@
 .card-wrapper {
-    display: flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-content: center;
-  
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-container {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
   .card-container {
-    margin: 45px;
-    max-width: 40rem;
-
+    width: 100%;
   }
+}
 
- 
-  img.card-img-top{
-    border-radius: 5%;
-    border: 1px solid rgb(74, 68, 76);
+  
+  img.card-img-top {
+  border-radius: 5%;
+  border: 1px solid rgb(74, 68, 76);
+  max-width: 100%; 
+  height: auto; 
   }
   
   div.pro-card {
-    /* margin: auto; */
-    padding: 40px;
-    background: linear-gradient(72.3deg, rgb(114, 105, 127) 8.5%, rgb(135, 39, 61) 92.2%);
-    border: none;
-    box-shadow: 10px 20px 20px 10px rgb(14, 14, 14);
-    border-radius: 5%;
+  padding: 30px;
+  background: linear-gradient(
+  72.3deg,
+  rgb(114, 105, 127) 8.5%,
+  rgb(12, 10, 11) 92.2%
+  );
+  border: none;
+  box-shadow: 10px 20px 20px 10px rgb(14, 14, 14);
+  border-radius: 5%;
+  max-width: 100%; 
   }
-
-.container h2 {
-    margin-bottom: 5%;
-    font-family: 'Allura', cursive;
-    font-size: 75px;
-    font-weight: 700;
-    color: white;
-    text-shadow: 25px 20px 25px black;
-}
-
-div.card-title.h5 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 25px;
-    color: white;
-    font-weight: 900;
-    text-shadow: 15px 10px 15px black;
-}
-
-button.btn.btn-primary {
-    margin:auto;
-    padding: 0.6em 1.2em;
-    border-radius: 10%;
-    cursor: pointer;
-    color: white;
-    background: linear-gradient(120deg, darkmagenta, rgb(60, 11, 46), rgb(13, 10, 13));
-    background-size: 200% 100%;
-    background-position: 100% 0;
-    transition: background-position .5s;
-    border: 2px solid rgb(82, 33, 122);
-} 
-
-button.btn.btn-primary:hover{
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(233, 233, 240), 0 0 5px rgb(72, 3, 96);
-}
-
-.hyperlink{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-decoration: none;
-    font-size: 18px;
-    color: inherit;
-}
-
-p.card-text{
-    font-size: 15px;
-    text-align: justify;
-    font-family: 'Genos', sans-serif;
-    font-weight: 700;
-}
-
-
-/* MEDIA QUERIES */
+  
+  .container h2 {
+  margin-bottom: 5%;
+  font-family: "Allura", cursive;
+  font-size: 75px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 25px 20px 25px black;
+  }
+  
+  div.card-title.h5 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 900;
+  text-shadow: 15px 10px 15px black;
+  }
+  
+  button.btn.btn-primary {
+  margin: auto;
+  padding: 0.6em 1.2em;
+  border-radius: 10%;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(
+  120deg,
+  rgb(231, 223, 231),
+  rgb(69, 56, 65),
+  rgb(2, 2, 2)
+  );
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.5s;
+  border: 2px solid rgb(161, 111, 202);
+  }
+  
+  button.btn.btn-primary:hover {
+  box-shadow: 1px 1px 2px black,
+  0 0 25px rgb(233, 233, 240),
+  0 0 5px rgb(72, 3, 96);
+  }
+  
+  .hyperlink {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: inherit;
+  }
+  
+  p.card-text {
+  font-size: 15px;
+  text-align: justify;
+  font-family: "Genos", sans-serif;
+  font-weight: 700;
+  } 

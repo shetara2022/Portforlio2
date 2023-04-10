@@ -1,11 +1,10 @@
-
 .home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 50vh;
-    margin-top: 20%;
+    background-color: black;
 }
 
 .intro_words {
@@ -27,14 +26,16 @@
 }
 
 .mypic{
-    width: 200px;
-    height: 300px;
+    width: 380px;
+    height: 380px;
     display: block;
+    margin-top: 50%;
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid;
-    border-image-source: linear-gradient(rgb(34, 32, 33), rgb(74, 6, 42));
-    border-image-slice: 30;
+    border-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom: 10px solid rgb(243, 235, 235);
     animation: updown 2s linear infinite;
 }
 
@@ -48,8 +49,14 @@
     100%{
         transform: translateY(-20px);
     }
-
 }
+
+/* .mypic:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+} */
+
+
 p { 
     background-color: transparent;
     font-family: 'Lilita One', cursive;

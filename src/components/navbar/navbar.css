@@ -1,24 +1,15 @@
-.nav-container{
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 1px solid #c9c4c6;
-    /* padding: 0.5rem 1.4rem;  */
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    top: 1rem;
-    transform: translateX(-50%);
-    gap: 0.5rem;
-    backdrop-filter: blur(15px);
+a:link {
+  font-family: 'Genos', sans-serif;
+  font-size: 2vw;
+  color: white;
+  text-decoration: none;
+  text-shadow: 15px 10px 15px black;
+  font-weight: 800;
+  flex: 1 0 auto;
 }
 
-div.navbar.navbar-nav {
-  margin: 0;
-  padding: 0;
-}
-
-span.title.navbar-brand{
-    font-family: 'Meddon', cursive;
+.title {
+  font-family: 'Meddon', cursive;
     font-size: 2rem;
     text-shadow: 2px 2px 3px black, 0 0 25px rgb(200, 83, 236), 0 0 5px darkblue;
     color:white;
@@ -27,55 +18,54 @@ span.title.navbar-brand{
     text-align: center;
 }
 
-
-a.navbar-link, a.active.navbar-link.nav-link {
-  font-family: 'Genos', sans-serif;
-    text-decoration: none;
-    color: white;
-    text-shadow: 15px 10px 15px black;
-    font-size: 2vw;
-    font-weight: 600;
-    flex: 1 0 auto;
-}
-
-
-a.active.navbar-link.nav-link:hover, a.navbar-link:hover {
-    color: rgb(199, 128, 166);
-    border-radius: 2rem;
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #c9c4c6;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  top: 1rem;
+  transform: translateX(-50%);
+  gap: 0.3rem;
+  backdrop-filter: blur(15px);
+  margin:0;
+  padding:0;
 }
 
 .social-icons svg {
-    color: white;
-    margin: 1vw;
-    font-size: 2vw;
-    cursor: pointer;
-    border-radius: 50%;
-  }
+  color: white;
+  margin: 1vw;
+  font-size: 2vw;
+  cursor: pointer;
+  border-radius: 50%;
+}
 
-  .social-icons svg:hover{
-    color: rgb(199, 128, 166);;
-  }
+.social-icons svg:hover{
+  color: rgb(199, 128, 166);;
+} 
 
 
-  /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
-  @media (max-width: 768px) {
-    .nav-container {
-      flex-direction: column;
+  @media(max-width: 768px) {
+    nav {
+      flex-direction:row;
       align-items: center;
+      width:80vw
     }
   
-    span.title.navbar-brand {
+   .title {
       font-size: 5vw;
     }
   
-    a.navbar-link, a.active.navbar-link.nav-link {
+    a {
       font-size: 4vw;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
   
     .social-icons svg {
       margin: 2vw;
-      font-size: 6vw;
+      font-size: 4vw;
     }
   }

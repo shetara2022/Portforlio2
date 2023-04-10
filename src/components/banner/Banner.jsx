@@ -1,13 +1,13 @@
 import './banner.css'
 import { useTypewriter } from 'react-simple-typewriter'
-import me from '../../images/me.jpeg';
+import me3 from '../../images/me3.jpeg';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { isVisible } from '@testing-library/user-event/dist/utils';
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: [ '- Fullstack Developer',  ' - React Developer',  ' - Web Developer',  '- Software Development'],
+    words: [ '- Fullstack Developer',  ' - React Developer',  ' - Web Developer',  '- Software Developer'],
     loop: {},
     typeSpeed: 160,
     deleteSpeed: 80,
@@ -15,12 +15,12 @@ const Banner = () => {
 
   return (
     <>
-      <div className='home'>
+      <div className='home' id= 'home'>
         <div>
-            <img className='mypic' src={me} alt="Woman Coder" />
+            <img className='mypic' src={me3} alt="Woman Coder" />
           </div>
         <TrackVisibility>
-          <div className={isVisible ? "animate__animated animate__flip" : ""}>
+          <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
           <h1 className='intro_words'>
           Hi, I'm Shetara!
               {'  '} </h1> 

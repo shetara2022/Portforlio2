@@ -8,7 +8,7 @@ import blog  from '../../images/blog.png'
 
 const Projects = () => {
   return (
-      <section className='my-/projects'>
+      <section className='my-/projects' id='projects'>
           <Container>
                       <h2> Projects</h2>
                       <div className='card-wrapper'>

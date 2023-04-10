@@ -6,10 +6,9 @@ import contactcolor from '../../images/contactcolor.png'
 const Contact = () => {
     
   return (
-    <>
-   
+    <> 
     <section className='contact' id='connect'>
-      <h2 className='contact-title'>Let's Connect</h2>
+      <h2 className='contact-title'>Let's Connect!</h2>
       <img className='colorimage' src={contactcolor} alt="Woman on computer" />
       
 
