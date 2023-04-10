@@ -1,9 +1,13 @@
+a:visited {
+  color: white;
+}
+
+
 a:link {
   font-family: 'Genos', sans-serif;
   font-size: 2vw;
   color: white;
   text-decoration: none;
-  text-shadow: 15px 10px 15px black;
   font-weight: 800;
   flex: 1 0 auto;
 }
