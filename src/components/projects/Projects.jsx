@@ -8,9 +8,9 @@ import blog  from '../../images/blog.png'
 
 const Projects = () => {
   return (
-      <section className='my-/projects' id='projects'>
+      <section className='my-projects' >
           <Container>
-                      <h2> Projects</h2>
+                      <h2 id='projects'> Projects</h2>
                       <div className='card-wrapper'>
                       <div className='card-container'>
                       <Card className='pro-card'>

@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin:25px;
 }
 
 .card-container {
@@ -27,7 +28,7 @@
   padding: 30px;
   background: linear-gradient(
   72.3deg,
-  rgb(114, 105, 127) 8.5%,
+  rgb(112, 79, 158) 8.5%,
   rgb(12, 10, 11) 92.2%
   );
   border: none;
@@ -38,7 +39,7 @@
   
   .container h2 {
     margin-top: 30%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     font-family: "Allura", cursive;
     font-size: 75px;
     font-weight: 700;
@@ -62,7 +63,7 @@
   color: white;
   background: linear-gradient(
   120deg,
-  rgb(231, 223, 231),
+  rgb(119, 44, 119),
   rgb(69, 56, 65),
   rgb(2, 2, 2)
   );
