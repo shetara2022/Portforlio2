@@ -8,11 +8,11 @@
 
 .intro_words {
     display: inline-block;
-    color: white;
+    color: rgb(238, 234, 234);
     margin-top: 10%;
-    text-shadow: 15px 5px 10px rgb(9, 9, 9);
-    font-size: 90px;
-    font-family: 'Allura', cursive;
+    text-shadow: 15px 5px 10px rgb(0, 0, 1);
+    font-size: 80px;
+    font-family: 'Lilita One', cursive;
 }
 
 .typewords {
@@ -21,7 +21,7 @@
     font-size: 35px;
     color:#F0DFD9;
     text-shadow: 5px 5px 10px rgb(9, 9, 9);
-    font-family: 'Special Elite', cursive;
+    font-family: 'Lilita One', cursive;
 }
 
 .mypic{

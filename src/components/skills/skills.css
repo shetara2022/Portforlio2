@@ -1,3 +1,8 @@
+.skills-intro{
+  font-size: 14px;
+  text-align: center;
+}
+
 .skillset {
     padding: 0 0 50px 0;
     position: relative;
@@ -43,7 +48,7 @@
 
     .computer {
         display: inline-flex;
-        width: 50%;
+        width: 60%;
         -ms-transform: rotate(20deg);
         transform: rotate(20deg);
 }

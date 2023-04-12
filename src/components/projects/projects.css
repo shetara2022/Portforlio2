@@ -1,3 +1,8 @@
+.pro-intro {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15%;
+}
 .card-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +44,7 @@
   
   .container h2 {
     margin-top: 30%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     font-family: "Allura", cursive;
     font-size: 75px;
     font-weight: 700;

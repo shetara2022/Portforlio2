@@ -10,7 +10,8 @@ const Projects = () => {
   return (
       <section className='my-projects' >
           <Container>
-                      <h2 id='projects'> Projects</h2>
+              <h2 id='projects'> Projects</h2>
+              <p className='pro-intro'>Here you will find a collection of projects I have worked on, showcasing my skills and experience in web development. Each project represents a unique challenge and opportunity for me to apply my knowledge and creativity to develop innovative solutions. I have worked with various technologies, including HTML, CSS, JavaScript, React, Node.js, and more. I hope these projects demonstrate my passion for coding and my ability to learn quickly and adapt to new technologies. Please take a look and feel free to reach out to me if you have any questions or would like to collaborate on a project!</p>
                       <div className='card-wrapper'>
                       <div className='card-container'>
                       <Card className='pro-card'>

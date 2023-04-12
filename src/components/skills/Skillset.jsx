@@ -35,6 +35,7 @@ const Skillset = () => {
                     <Col>
                         <div className='skillset-bx'>
                             <h2>Technical Skills</h2>
+                            <p className='skills-intro'>As a self-motivated and dedicated learner, I have acquired a range of technical skills that enable me to develop creative and effective solutions. I am continuously expanding my skillset and staying up-to-date with the latest trends in the industry </p>
                             <img className="computer" src={colorful} alt="Colorful computer" />
                             <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                 <div className='item'>
