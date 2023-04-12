@@ -1,6 +1,7 @@
 /* Default CSS */
 .App{
-  background: linear-gradient(72.3deg, rgb(49, 26, 85) 8.5%, rgb(153, 48, 73) 92.2%);
+  /* background: linear-gradient(72.3deg, rgb(49, 26, 85) 8.5%, rgb(153, 48, 73) 92.2%); */
+  background-color: black;
 }
 
 
