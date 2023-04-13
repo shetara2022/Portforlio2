@@ -1,6 +1,6 @@
 import './banner.css'
 import { useTypewriter } from 'react-simple-typewriter'
-import me4 from '../../images/me4.png';
+import me3 from '../../images/me3.jpeg';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { isVisible } from '@testing-library/user-event/dist/utils';
@@ -19,7 +19,7 @@ const Banner = () => {
        
         <TrackVisibility>
         <div className={isVisible ? "animate__animated animate__fadeInLeft" : ""} >
-            <img className='mypic' src={me4} alt="Woman Coder" />
+            <img className='mypic' src={me3} alt="Woman Coder" />
           </div>
           <div className={isVisible ? "animate__animated animate__lightSpeedInLeft" : ""}>
           <h1 className='intro_words'>
