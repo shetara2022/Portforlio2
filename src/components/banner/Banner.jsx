@@ -18,7 +18,7 @@ const Banner = () => {
       <div className='home' id= 'home'>
        
         <TrackVisibility>
-        <div className={isVisible ? "animate__animated animate__fadeInLeft" : ""}>
+        <div className={isVisible ? "animate__animated animate__fadeInLeft" : ""} >
             <img className='mypic' src={me4} alt="Woman Coder" />
           </div>
           <div className={isVisible ? "animate__animated animate__lightSpeedInLeft" : ""}>

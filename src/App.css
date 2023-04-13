@@ -62,9 +62,8 @@ img {
 
 .circles li:nth-child(1){
   left: 25%;
-  /* width: 80px;
-  height: 80px; */
-  width: 100%;
+  width: 80px;
+  height: 80px;
   height: 100%;
   animation-delay: 0s;
 }
@@ -72,9 +71,8 @@ img {
 
 .circles li:nth-child(2){
   left: 10%;
-  /* width: 20px;
-  height: 20px; */
-  width: 100%;
+  width: 20px;
+  height: 20px;
   height: 100%;
   animation-delay: 2s;
   animation-duration: 12s;
@@ -89,9 +87,8 @@ img {
 
 .circles li:nth-child(4){
   left: 40%;
-  /* width: 60px;
-  height: 60px; */
-  width: 100%;
+  width: 60px;
+  height: 60px;
   height: 100%;
   animation-delay: 0s;
   animation-duration: 18s;
