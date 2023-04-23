@@ -23,7 +23,13 @@ const Projects = () => {
                               </Card.Text>
                                 <Button variant="primary">
                                 <a className='hyperlink' href="http://trivia-game2.vercel.app" target="_blank" rel="noopener noreferrer">
-                                See Live
+                                Live
+                                </a>
+                              </Button>
+                              
+                              <Button variant="primary">
+                                <a className='hyperlink' href="https://github.com/shetara2022/Trivia_Game2" target="_blank" rel="noopener noreferrer">
+                                Repo
                                 </a>
                                 </Button>
                             </Card.Body>
@@ -40,7 +46,13 @@ const Projects = () => {
                                 </Card.Text>
                                 <Button variant="primary">
                                 <a className='hyperlink' href="https://home-of-the-games.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    See Live
+                                    Live
+                                </a>
+                              </Button>
+                              
+                              <Button variant="primary">
+                                <a className='hyperlink' href="https://github.com/AriesRedWar/NC-State-Group-Project-M2" target="_blank" rel="noopener noreferrer">
+                                Repo
                                 </a>
                                 </Button>
                             </Card.Body>
@@ -57,7 +69,13 @@ const Projects = () => {
                                 </Card.Text>
                                 <Button variant="primary">
                                 <a className='hyperlink' href="https://milestone-3-ayanbajo.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                See Live
+                                Live
+                                </a>
+                              </Button>
+                              
+                              <Button variant="primary">
+                                <a className='hyperlink' href="https://github.com/shetara2022/Professional-Portfolio" target="_blank" rel="noopener noreferrer">
+                                Repo
                                 </a>
                                 </Button>
                             </Card.Body>

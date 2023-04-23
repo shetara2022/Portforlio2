@@ -1,6 +1,7 @@
+
 .pro-intro {
-  font-size: 14px;
-  text-align: center;
+  font-size: 18px;
+  text-align: justify;
   margin-bottom: 15%;
 }
 .card-wrapper {
@@ -61,7 +62,8 @@
   }
   
   button.btn.btn-primary {
-  margin: auto;
+  font-size: 10px;
+  margin: 10px 50px 10px 20px;
   padding: 0.6em 1.2em;
   border-radius: 10%;
   cursor: pointer;

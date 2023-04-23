@@ -32,7 +32,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 4px solid rgb(249, 242, 249);
+    border: 4px solid rgb(224, 218, 224);
     box-shadow: 20px 10px 15px 20px #140414;
     animation: updown 2s linear infinite;
 }
@@ -54,7 +54,7 @@ p {
     font-family: 'Lilita One', cursive;
     color:#F0DFD9;
     line-height: 2;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     border-style: outset;
     word-spacing: -1px;
